@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="554.0" prefWidth="318.0" style="-fx-background-color: FFFFFF;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.ControladorVistaRegistrarPersonas">
+   <children>
+      <Button fx:id="btnRegistrarAdministradores" layoutX="70.0" layoutY="329.0" mnemonicParsing="false" onAction="#irARegistrarAdministradores" prefHeight="72.0" prefWidth="185.0" style="-fx-background-color: FF7070;" text="Administradores" />
+      <Button fx:id="btnRegistrarEmpleados" layoutX="70.0" layoutY="433.0" mnemonicParsing="false" onAction="#irARegistrarEmpleados" prefHeight="72.0" prefWidth="185.0" style="-fx-background-color: FF7070;" text="Empleados" />
+      <Button fx:id="btnMenu" layoutX="106.0" layoutY="277.0" mnemonicParsing="false" onAction="#cerrarVentana" prefHeight="27.0" prefWidth="113.0" style="-fx-background-color: FF7070;" text="Menú" />
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="63.0" layoutY="14.0">
+         <image>
+            <Image url="@../../../../LOGO.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

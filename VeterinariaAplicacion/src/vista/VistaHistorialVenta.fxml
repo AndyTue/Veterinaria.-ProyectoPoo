@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="434.0" prefWidth="737.0" style="-fx-background-color: FFFFFF;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.ControladorVistaHistorialVenta">
+   <children>
+      <TableView fx:id="tablaHistorial" layoutX="25.0" layoutY="26.0" prefHeight="350.0" prefWidth="694.0" style="-fx-background-color: E4E4E4;">
+        <columns>
+          <TableColumn fx:id="colIDProducto" prefWidth="169.0" text="ID Producto" />
+            <TableColumn fx:id="colProducto" prefWidth="301.0" text="Producto" />
+            <TableColumn fx:id="colCantidad" prefWidth="106.0" text="Cantidad" />
+            <TableColumn fx:id="colPrecio" prefWidth="114.0" text="Precio unidad" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnMenu" layoutX="319.0" layoutY="389.0" mnemonicParsing="false" onAction="#cerrarVentana" prefHeight="31.0" prefWidth="107.0" style="-fx-background-color: FF7070;" text="Menú" />
+   </children>
+</AnchorPane>
