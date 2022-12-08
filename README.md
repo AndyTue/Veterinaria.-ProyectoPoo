@@ -1,19 +1,10 @@
-# Software venta de medicina veterinaria y alimentos balanceados para animales
-
-## LOGO
+# Proyecto: Sistema de venta de medicina veterinaria y alimentos balaceados
 <p align="center">
-<img src="https://github.com/Luis-J-Quintana/Vet/blob/master/LOGO.jpg">
+<img src="https://github.com/Luis-J-Quintana/Projectito/blob/main/LOGO.jpg" title="Perfiles aerodinamicos.">
 </p>
 
-## Description 
-Development of an application for the sale of products from a vet.
+## Equipo
 
-## Team
-
-* Luis Javier Quintana Olivera
-* Abraham Cruz Colli
-* Andrés Turriza Euan
-
-## @Tutor
-
-* Jose Luiz López Martínez
+> - Andres de Jesús Turriza Euan [@AndyTue](https://github.com/AndyTue "Click Aquí")
+> - Luis Javier Quintana Olivera [@Luis-J-Quintana](https://github.com/Luis-J-Quintana "Click Aquí") 
+> - Abraham Raymundo Cruz Colli [@abrahamcruzc](https://github.com/abrahamcruzc "Click Aquí") 
